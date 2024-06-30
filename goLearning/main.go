@@ -43,8 +43,8 @@ func main() {
 	
     handler := c.Handler(router)
 	
-	fmt.Println("Server is running on http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", handler))
+	fmt.Println("Server is running on http://localhost:6789")
+	log.Fatal(http.ListenAndServe(":6789", handler))
 
 
 }
